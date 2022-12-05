@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.laranja{
+    position: absolute;
+    height: 100%;
+    width: 20%;
+    background-color: #fa7d40;
+}
+
+.avatar{
+    position: absolute;
+    width: 60%;
+    border-radius: 50%;
+    border: solid rgb(204, 43, 43) 7px;
+}
+
+.centro{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 35%;
+}
+
+.palavras{
+    font-size: 110%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sobre{
+    color: white;
+    margin-top: 115%;
+    text-align: center;
+}
+
+.conhecimento{
+    color: rgb(241, 215, 181, 0.747);
+    margin-top: 10%;
+    text-align: center;
+}
+
+.objetivo{
+    color: rgb(241, 215, 181, 0.747);
+    margin-top: 10%;
+    text-align: center;
+}
+
+.resto{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-flow: column;
+    padding-top: 12%;
+    padding-left: 22%;
+}
+
+.resto h1{
+    color: rgb(0, 0, 0);
+    font-size: 6rem;
+}
+
+.resto h1 span{
+    color: rgb(205, 29, 29);
+}
+
+.resto h3{
+    color: black;
+    font-size: 1.7rem;
+}
+
+.resto h3 span{
+    color: rgb(205, 29, 29);
+}
+
+.informações{
+    margin-top: 3.5rem;
+    color: rgb(146, 142, 130);
+    font-size: 1.3rem;
+}
